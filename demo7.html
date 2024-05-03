@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>加载海图到Leaflet</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <style>
+    #map { height: 600px; }
+  </style>
+</head>
+<body>
+
+<div id="map"></div>
+
+<script>
+  var map = L.map('map').setView([22.306, 113.778], 13); // 设置地图中心点和缩放级别
+
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: '© OpenStreetMap contributors'
+  }).addTo(map);
+
+  // 添加海图图层
+  // 这里你需要根据你的海图数据提供商的要求来加载图层
+  // 你可能需要使用Leaflet的相关插件来加载特定格式的海图数据
+
+</script>
+
+</body>
+</html>

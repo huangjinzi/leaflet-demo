@@ -1,7 +1,11 @@
 const urlTemplate = {
   //在mapbox自定义的影像地图
   mapbox_Image:
-    'https://api.mapbox.com/styles/v1/yqcim/cizh1ma3400ez2so5x1anhuzo/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoieXFjaW0iLCJhIjoiY2l6ZmhnZjExMDBhajJ4cGxnNGN5MnhpdCJ9.pcZtdfk8mSFboCdwqkvW6g',
+    //'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+    'http://m12.shipxy.com/tile.c?l=Na&m=o&x={x}&y={y}&z={z}.png',
+    //'http://webrd01.is.autonavi.com/appmaptile?lang=zh_cn&size=1&scale=1&style=8&x={x}&y={y}&z={z}',
+    //'http://webst01.is.autonavi.com/appmaptile?style=6&x={x}&y={y}&z={z}',
+    //'https://api.mapbox.com/styles/v1/yqcim/cizh1ma3400ez2so5x1anhuzo/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoieXFjaW0iLCJhIjoiY2l6ZmhnZjExMDBhajJ4cGxnNGN5MnhpdCJ9.pcZtdfk8mSFboCdwqkvW6g',
   //在mapbox自定义的矢量地图
   mapbox_Vector:
     'https://api.mapbox.com/styles/v1/liuvigongzuoshi/cjbf0ypqz8wp62ro6iayiivzy/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoibGl1dmlnb25nenVvc2hpIiwiYSI6ImNqYmYwd24wczJyd24yeGxsMWE5bGpxaGkifQ.CVKELjW5ASK8EnQfQCbxFw',
